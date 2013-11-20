@@ -17,7 +17,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><tiles:insertAttribute name="side-panel"></tiles:insertAttribute></td>
+		<td width="15%"><tiles:insertAttribute name="side-panel"></tiles:insertAttribute></td>
 		<td><tiles:insertAttribute name="content"></tiles:insertAttribute></td>
 	</tr>
 	<tr>

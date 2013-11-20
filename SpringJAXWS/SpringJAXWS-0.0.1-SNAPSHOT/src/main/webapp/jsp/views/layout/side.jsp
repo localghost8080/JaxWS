@@ -4,7 +4,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
 <div>
-<h3>MENU</h3>
+<h3 class="text-center">MENU</h3>
 <ul>
 <li>First item</li>
 <li>Second item</li>
