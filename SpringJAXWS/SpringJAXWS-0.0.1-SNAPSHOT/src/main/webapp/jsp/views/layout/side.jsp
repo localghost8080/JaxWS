@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-Hi this is the landing page .
 
-Click <a href="#">Here</a> to call a webservice.
 </body>
 </html>
