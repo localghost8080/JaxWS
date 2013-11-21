@@ -3,4 +3,4 @@
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
-	<h2 class="text-center">THIS IS A WEBAPP TO EXPERIMENT WITH ADVANCED SPRING AND	WEBSERVICES</h2>
+	<h2 class="text-center"><s:message code="springws.main.heading"/></h2>

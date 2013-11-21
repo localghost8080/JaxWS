@@ -6,7 +6,7 @@
 	<display-name>SpringJAXWS</display-name>
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
-		<param-value>/WEB-INF/rootApplicationContext.xml</param-value>
+		<param-value>/WEB-INF/spring-context/rootApplicationContext.xml</param-value>
 	</context-param>
 	<filter>
 		<filter-name>SetCharacterEncodingFilter</filter-name>
@@ -34,7 +34,7 @@
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>/WEB-INF/springws-bean.xml</param-value>
+			<param-value>/WEB-INF/spring-context/springws-bean.xml</param-value>
 			</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
@@ -43,7 +43,7 @@
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
-			<param-value>/WEB-INF/wsserver-bean.xml</param-value>
+			<param-value>/WEB-INF/spring-context/wsserver-bean.xml</param-value>
 			</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>

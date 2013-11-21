@@ -1,9 +1,8 @@
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
-
 <html>
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" media="all" type="text/css" href="/SpringJAXWS/resources/baselayout.css" />
+<link rel="stylesheet" media="all" type="text/css" href="/SpringJAXWS/resources/css/baselayout.css" />
 <title>
 	<tiles:insertAttribute name="title"	defaultValue="SpringJaxWS" ignore="true">
 	</tiles:insertAttribute>
