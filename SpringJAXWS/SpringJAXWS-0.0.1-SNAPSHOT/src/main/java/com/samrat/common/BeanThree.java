@@ -1,4 +1,4 @@
-package com.samrat.landing;
+package com.samrat.common;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

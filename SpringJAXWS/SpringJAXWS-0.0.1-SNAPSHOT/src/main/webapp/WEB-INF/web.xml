@@ -35,7 +35,7 @@
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<param-value>/WEB-INF/spring-context/springws-bean.xml</param-value>
-			</init-param>
+		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 	<servlet>
@@ -44,9 +44,19 @@
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
 			<param-value>/WEB-INF/spring-context/wsserver-bean.xml</param-value>
-			</init-param>
+		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
+	<!-- Servlet Mapping for webservice -->
+	<servlet>
+		<servlet-name>SimpleWS</servlet-name>
+		<servlet-class>com.samrat.wsserver.webservices.SimpleWSImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SimpleWS</servlet-name>
+		<url-pattern>simplews</url-pattern>
+	</servlet-mapping>
+	<!-- WS servlet mapping end -->
 	<servlet-mapping>
 		<servlet-name>springws</servlet-name>
 		<url-pattern>*.htm</url-pattern>

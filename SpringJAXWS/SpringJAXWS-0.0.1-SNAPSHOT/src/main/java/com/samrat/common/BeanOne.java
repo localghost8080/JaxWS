@@ -1,4 +1,4 @@
-package com.samrat.landing;
+package com.samrat.common;
 
 public class BeanOne {
 

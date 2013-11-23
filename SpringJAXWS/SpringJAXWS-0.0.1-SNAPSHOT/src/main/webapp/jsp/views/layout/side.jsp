@@ -6,8 +6,10 @@
 <div>
 <h3 class="text-center"><s:message code="springws.main.menu"/></h3>
 <ul>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
+<li><a href="<%=request.getContextPath()%>/simpleWS.htm">Simple WebService call</a></li>
+<li>Simple WebService with rich params</li>
+<li>WebService returning rich object </li>
+<li>WebService accepting and returning collections </li>
+<li>WebService accepting and returning streams</li>
 </ul>
 </div>

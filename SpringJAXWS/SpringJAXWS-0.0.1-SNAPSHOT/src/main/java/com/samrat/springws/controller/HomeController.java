@@ -6,15 +6,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.samrat.landing.BeanTwo;
+import com.samrat.common.BeanTwo;
 
 @Controller
 public class HomeController {
 	
 	@Autowired
 	BeanTwo beanTwo;
-	//TODO CREATE A LOGGER
-	//TODO message-en.properties
+	//TODO CREATE A LOGGER with AOP
 	//TODO create webservices
 	
 	@RequestMapping({"/","/home"})

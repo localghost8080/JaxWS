@@ -12,4 +12,7 @@
 	<definition name="home" extends="template">
 		<put-attribute name="content" value="/jsp/views/home.jsp" />
 	</definition>
+	<definition name="simpleWebService" extends="template">
+		<put-attribute name="content" value="/jsp/views/results/simpleWebService.jsp" />
+	</definition>
 </tiles-definitions>
