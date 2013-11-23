@@ -24,6 +24,4 @@
 			</list>
 		</property>
 	</bean>
-	<bean id="wsInvoker" class="com.samrat.springws.service.WsInvoker" lazy-init="true" />
-	<bean id="springBeanFactoryUtil" class="com.samrat.common.SpringBeanFactoryUtil"></bean>
 </beans>
