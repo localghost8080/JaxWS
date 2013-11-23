@@ -38,15 +38,6 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-	<servlet>
-		<servlet-name>wsserver</servlet-name>
-		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-		<init-param>
-			<param-name>contextConfigLocation</param-name>
-			<param-value>/WEB-INF/spring-context/wsserver-bean.xml</param-value>
-		</init-param>
-		<load-on-startup>1</load-on-startup>
-	</servlet>
 	<!-- Servlet Mapping for webservice -->
 	<servlet>
 		<servlet-name>SimpleWS</servlet-name>
@@ -60,10 +51,6 @@
 	<servlet-mapping>
 		<servlet-name>springws</servlet-name>
 		<url-pattern>*.htm</url-pattern>
-	</servlet-mapping>
-	<servlet-mapping>
-		<servlet-name>wsserver</servlet-name>
-		<url-pattern>*.ws</url-pattern>
 	</servlet-mapping>
 	<session-config>
 		<session-timeout>120</session-timeout>

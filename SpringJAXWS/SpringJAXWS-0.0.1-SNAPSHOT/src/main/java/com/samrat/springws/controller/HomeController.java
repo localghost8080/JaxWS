@@ -11,7 +11,7 @@ public class HomeController {
 	//TODO CREATE A LOGGER with AOP
 	//TODO create webservices
 	
-	@RequestMapping({"/","/home"})
+	@RequestMapping("/home")
 	public String showHomePage(Map<String, Object> model){
 		return "home";
 	}

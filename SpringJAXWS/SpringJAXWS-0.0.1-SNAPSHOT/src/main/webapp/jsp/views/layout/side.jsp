@@ -7,7 +7,7 @@
 <h3 class="text-center"><s:message code="springws.main.menu"/></h3>
 <ul>
 <li><a href="<%=request.getContextPath()%>/simpleWS.htm">Simple WebService call</a></li>
-<li>Simple WebService with rich params</li>
+<li><a href="<%=request.getContextPath()%>/richParamWS.htm">Simple WebService with rich params</a></li>
 <li>WebService returning rich object </li>
 <li>WebService accepting and returning collections </li>
 <li>WebService accepting and returning streams</li>

@@ -8,10 +8,10 @@ import javax.xml.ws.Service;
 
 import com.samrat.wsserver.webservices.SimpleWSInterface;
 
-public class WsInvoker {
+public class SimpleWsInvoker {
 	SimpleWSInterface simpleWs;
 
-	public WsInvoker() {
+	public SimpleWsInvoker() {
 
 		try {
 			URL url = new URL("http://localhost:8080/SpringJAXWS/simplews?wsdl");
